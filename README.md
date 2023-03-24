@@ -1,4 +1,4 @@
-*Este ReadMe será utilizado como diário de bordo para Algoritmos Genéticos
+*Este ReadMe será utilizado como diário de bordo para Algoritmos Genéticos*
 
 # Algoritmos Genéticos
 
