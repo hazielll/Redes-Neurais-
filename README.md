@@ -38,3 +38,6 @@ O experimento consistiu em juntar os conceitos aprendidos e otimizá-los para re
 
 O experimento consistiu em utilizar os conceitos aprendidos em um problema de caixas não binárias, as quais podem receber um número inteiro em um determinado intervalo. Assim, o princípio é o mesmo, no entanto, a dificuldade da resolução do problema seguiu um caminho diferente.
 
+*A05 - O uso do algoritmo genético para descobrir uma senha alfabética*
+
+O experimento consistiu em utilizar os conceitos aprendidos em um novo problema: descobrir uma senha alfabética por tentativa e erro do algoritmo, em conjunto à implementação de mutações, as quais ocorrem ao receber o feedback da fitness - isto é, semelhança entre a string gerada pelo algoritmo e a string da senha - do nosso objetivo. 
