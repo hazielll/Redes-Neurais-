@@ -41,3 +41,11 @@ O experimento consistiu em utilizar os conceitos aprendidos em um problema de ca
 *A05 - O uso do algoritmo genético para descobrir uma senha alfabética*
 
 O experimento consistiu em utilizar os conceitos aprendidos em um novo problema: descobrir uma senha alfabética por tentativa e erro do algoritmo, em conjunto à implementação de mutações, as quais ocorrem ao receber o feedback da fitness - isto é, semelhança entre a string gerada pelo algoritmo e a string da senha - do nosso objetivo. 
+
+*A06 - O uso do algoritmo genético no problema do caixeiro viajante*
+
+O experimento dessa aula consistiu em revisitar o problema do caixeiro viajante, o qual já havia sido explorado - de maneira rasa - na disciplina de algoritmos do primeiro semestre. Agora, com as novas ferramentas e conceitos aprendidos nas aulas de algoritmos genéticos, podemos utilizar uma nova - e melhor - abordagem para encontrar uma solução aproximada para esse problema. Relembrando, o problema do caixeiro viajante consiste em encontrar o caminho mais curto que um vendedor viajante pode percorrer para visitar um conjunto de cidades exatamente uma vez e retornar à cidade de origem. 
+
+*A06 - Aplicando restrições no problema da mochila*
+
+O experimento dessa aula consistiu em revisitar o problema do mochileiro, o qual também já havia sido explorado na disciplina de algoritmos do primeiro semestre. Junto a isso, foi apresentado o conceito de restrições e "punições" ao lidar com algoritmos genéticos.
