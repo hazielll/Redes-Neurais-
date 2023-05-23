@@ -20,7 +20,13 @@ Crossover - esta é a função responsabilizada pelo cruzamento entre os indiví
 
 Mutação - mutações serão alterações aleatórias no gene, as quais poderão ser benéficas ou não para os indivíduos.
 
-## Experimentos
+## EXP GA
+
+*Experimentos e seus objetivos*
+
+A pasta "Exp GA" será responsável por armazenar os "experimentos avaliativos" que deverão ser resolvidos para fixarmos e aplicarmos os conhecimentos obtidos durante as aulas e nosso aprendizado de algoritmos genéticos e os seus fundamentos. 
+
+## Experimentos I
 
 *A01 - Busca aleatória*
 
@@ -41,3 +47,25 @@ O experimento consistiu em utilizar os conceitos aprendidos em um problema de ca
 *A05 - O uso do algoritmo genético para descobrir uma senha alfabética*
 
 O experimento consistiu em utilizar os conceitos aprendidos em um novo problema: descobrir uma senha alfabética por tentativa e erro do algoritmo, em conjunto à implementação de mutações, as quais ocorrem ao receber o feedback da fitness - isto é, semelhança entre a string gerada pelo algoritmo e a string da senha - do nosso objetivo. 
+
+*A06 - O uso do algoritmo genético no problema do caixeiro viajante*
+
+O experimento consistiu em revisitar o problema do caixeiro viajante abordado durante o primeiro semestre, mas agora com as ferramentas e conceitos aprendidos, sua resolução foi otimizada, especialmente devido à maior flexibilidade com dados dos algoritmos genéticos, o que facilita que haja uma rápida convergência para o objetivo do problema.  
+
+*A07 - O uso do algoritmo genético e a aplicação de restrições*
+
+O experimento consistiu em, novamente, revisitar um problema já abordado no primeiro semestre. Da mesma forma que com o problema do caixeiro viajante, alcançar uma boa aproximação do nosso objetivo se tornou um processo menos trabalhoso - computacionalmente. 
+
+*A08, A09, A10, A11 - O módulo DEAP*
+
+Este conjunto de experimentos teve como objetivo realizar um aprofundamento no módulo `DEAP`, o qual é utilizado para "facilitar" o processo de criação de algoritmos genéticos, com diversas ferramentas - e até mesmo uma caixa de ferramentas - para não ser necessário criar funções específicas para cada um dos problemas envolvendo algorítmos genéticos a serem tratados. Junto a isso, foram mostrados diversos exemplos da utilização do módulo `DEAP` na resolução de determinados problemas, sendo eles o problema das caixas não-binárias e o problema "descubra a senha".
+
+## Experimentos II
+
+*R01 - Os conceitos por trás das Redes Neurais*
+
+Este experimento consistiu em uma abordagem conceitual sobre os conceitos fundamentais dentro da área das Redes Neurais. Na parte computacional, pouco foi feito dessa vez, visto que o assunto abordado, a `back propagation`, é, a princípio, a minimização de erros de dados de determinados output por meio da utilização de derivadas e derivadas parciais. 
+
+*R02 - Aprofundamento nos objetos `classes`*
+
+Este experimento
