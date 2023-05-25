@@ -50,6 +50,7 @@ O experimento consistiu em utilizar os conceitos aprendidos em um novo problema:
 
 *A06 - O uso do algoritmo genético no problema do caixeiro viajante*
 
+<<<<<<< HEAD
 O experimento consistiu em revisitar o problema do caixeiro viajante abordado durante o primeiro semestre, mas agora com as ferramentas e conceitos aprendidos, sua resolução foi otimizada, especialmente devido à maior flexibilidade com dados dos algoritmos genéticos, o que facilita que haja uma rápida convergência para o objetivo do problema.  
 
 *A07 - O uso do algoritmo genético e a aplicação de restrições*
@@ -69,3 +70,10 @@ Este experimento consistiu em uma abordagem conceitual sobre os conceitos fundam
 *R02 - Aprofundamento nos objetos `classes`*
 
 Este experimento
+=======
+O experimento dessa aula consistiu em revisitar o problema do caixeiro viajante, o qual já havia sido explorado - de maneira rasa - na disciplina de algoritmos do primeiro semestre. Agora, com as novas ferramentas e conceitos aprendidos nas aulas de algoritmos genéticos, podemos utilizar uma nova - e melhor - abordagem para encontrar uma solução aproximada para esse problema. Relembrando, o problema do caixeiro viajante consiste em encontrar o caminho mais curto que um vendedor viajante pode percorrer para visitar um conjunto de cidades exatamente uma vez e retornar à cidade de origem. 
+
+*A06 - Aplicando restrições no problema da mochila*
+
+O experimento dessa aula consistiu em revisitar o problema do mochileiro, o qual também já havia sido explorado na disciplina de algoritmos do primeiro semestre. Junto a isso, foi apresentado o conceito de restrições e "punições" ao lidar com algoritmos genéticos.
+>>>>>>> 8313aaa515fdcfa8ebbc21f31fc3f431c1d26cb5
