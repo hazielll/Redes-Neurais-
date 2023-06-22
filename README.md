@@ -1,4 +1,4 @@
-*Este ReadMe será utilizado como diário de bordo para Algoritmos Genéticos*
+**Este ReadMe será utilizado como diário de bordo para a disciplina de Algoritmos Genéticos e Redes Neurais**
 
 # Algoritmos Genéticos
 
@@ -26,7 +26,7 @@ Mutação - mutações serão alterações aleatórias no gene, as quais poderã
 
 A pasta "Exp GA" será responsável por armazenar os "experimentos avaliativos" que deverão ser resolvidos para fixarmos e aplicarmos os conhecimentos obtidos durante as aulas e nosso aprendizado de algoritmos genéticos e os seus fundamentos. 
 
-## Experimentos I
+## Experimentos I - Algoritmos Genéticos
 
 *A01 - Busca aleatória*
 
@@ -50,7 +50,6 @@ O experimento consistiu em utilizar os conceitos aprendidos em um novo problema:
 
 *A06 - O uso do algoritmo genético no problema do caixeiro viajante*
 
-<<<<<<< HEAD
 O experimento consistiu em revisitar o problema do caixeiro viajante abordado durante o primeiro semestre, mas agora com as ferramentas e conceitos aprendidos, sua resolução foi otimizada, especialmente devido à maior flexibilidade com dados dos algoritmos genéticos, o que facilita que haja uma rápida convergência para o objetivo do problema.  
 
 *A07 - O uso do algoritmo genético e a aplicação de restrições*
@@ -61,7 +60,11 @@ O experimento consistiu em, novamente, revisitar um problema já abordado no pri
 
 Este conjunto de experimentos teve como objetivo realizar um aprofundamento no módulo `DEAP`, o qual é utilizado para "facilitar" o processo de criação de algoritmos genéticos, com diversas ferramentas - e até mesmo uma caixa de ferramentas - para não ser necessário criar funções específicas para cada um dos problemas envolvendo algorítmos genéticos a serem tratados. Junto a isso, foram mostrados diversos exemplos da utilização do módulo `DEAP` na resolução de determinados problemas, sendo eles o problema das caixas não-binárias e o problema "descubra a senha".
 
-## Experimentos II
+# Redes Neurais
+
+Redes neurais são estruturas computacionais inspiradas no funcionamento do cérebro humano, em que múltiplos nós, conhecidos como neurônios, estão interconectados para processar informações. Assim como os algoritmos evolutivos, as redes neurais adaptam-se e aprendem a partir dos dados de entrada, ajustando seus parâmetros para melhorar o desempenho em uma tarefa específica, os exemplos mais comuns consistem em identificar padrões complexos, realizar classificações e até mesmo previsões. As redes neurais são capazes de realizar essas tarefas de forma mais eficiente e rápida, tornando-se uma ferramenta poderosa para resolver problemas em áreas como visão computacional, processamento de linguagem natural e reconhecimento de voz, o que fomenta sua gama de aplicações em campos como medicina, finanças, automação industrial e muito mais. 
+
+## Experimentos II - Redes Neurais
 
 *R01 - Os conceitos por trás das Redes Neurais*
 
@@ -69,11 +72,28 @@ Este experimento consistiu em uma abordagem conceitual sobre os conceitos fundam
 
 *R02 - Aprofundamento nos objetos `classes`*
 
-Este experimento
-=======
-O experimento dessa aula consistiu em revisitar o problema do caixeiro viajante, o qual já havia sido explorado - de maneira rasa - na disciplina de algoritmos do primeiro semestre. Agora, com as novas ferramentas e conceitos aprendidos nas aulas de algoritmos genéticos, podemos utilizar uma nova - e melhor - abordagem para encontrar uma solução aproximada para esse problema. Relembrando, o problema do caixeiro viajante consiste em encontrar o caminho mais curto que um vendedor viajante pode percorrer para visitar um conjunto de cidades exatamente uma vez e retornar à cidade de origem. 
+Este experimento consistiu em um breve aprofundamento no conceito de objetos de classe no Python e sua relação com redes neurais. As classes em Python fornecem uma estrutura organizada para criar objetos que encapsulam dados e comportamentos relacionados. Ao aplicar esse conceito ao contexto de redes neurais, podemos criar classes que representam diferentes componentes, como camadas, neurônios e otimizadores, tornando o processo de construção e treinamento de redes neurais mais modular e reutilizável. A utilização de objetos de classe permite uma abordagem mais intuitiva e orientada a objetos no desenvolvimento de redes neurais, facilitando a compreensão, manutenção e expansão dos modelos. 
 
-*A06 - Aplicando restrições no problema da mochila*
+*R03 - A construção automatizada de um grafo*
 
-O experimento dessa aula consistiu em revisitar o problema do mochileiro, o qual também já havia sido explorado na disciplina de algoritmos do primeiro semestre. Junto a isso, foi apresentado o conceito de restrições e "punições" ao lidar com algoritmos genéticos.
->>>>>>> 8313aaa515fdcfa8ebbc21f31fc3f431c1d26cb5
+Este experimento consistiu na construção de grafos no Python utilizando a biblioteca Graphviz. Os grafos são estruturas visuais poderosas que nos permitem representar as conexões e relacionamentos entre os elementos de um sistema. Ao aplicar essa abordagem aos princípios das redes neurais, podemos visualizar de forma clara e intuitiva a arquitetura (extensa) e as conexões das camadas e neurônios de uma rede neural. A construção de grafos por meio da biblioteca Graphviz nos permite automatizar a criação e análise visual dessas redes, proporcionando uma boa abordagem sobre seu comportamento e desempenho. O que nos permite entender e aprimorar nossos modelos de redes neurais, explorando sua estrutura. 
+
+*R04 - Computando gradientes*
+
+Este experimento consistiu em explorar a teoria por trás dos gradientes locais em redes neurais. Os gradientes locais desempenham um papel fundamental na medição da sensibilidade de um nó em relação ao seu valor de entrada. Ao aplicar o algoritmo de backpropagation, esses gradientes são calculados e utilizados para ajustar os pesos das conexões da rede, permitindo que ela aprenda e se adapte aos dados de entrada. Esse processo iterativo continua até que a rede neural atinja a convergência desejada. Ao longo desta aula, exploraremos detalhes sobre esse conceito e descobriremos como ele pode impulsionar nosso processo de treinamento e melhorar significativamente os resultados obtidos. 
+
+*R05 - Conclusão da classe `Valor`*
+
+Este experimento consistiu em revisitar os conceitos fundamentais explorados até o momento, com ênfase na classe `Valor` usada para calcular os gradientes locais. A implementação do código e a discussão sobre a relevância dos gradientes locais ressaltam a importância da diferenciação automática nas redes neurais. É fundamental ter um conhecimento sólido desses conceitos para evitar erros e obter resultados precisos.
+
+*R06 - As Redes Neurais Artificiais propriamente ditas*
+
+Este experimento consistiu na criação de uma rede neural artificial (RNA) com um único neurônio, explorando as três camadas essenciais que a compõem. As três camadas fundamentais são a camada de entrada (input layer), a camada oculta (hidden layer) e a camada de saída (output layer). Cada camada desempenha um papel crucial no processamento das informações e na tomada de decisões da rede neural. Durante o experimento, discutimos em detalhes a função de cada camada e como elas se interconectam para formar o fluxo de informação na rede. Ao compreender a importância e a função dessas camadas, estamos mais preparados para projetar e construir redes neurais mais complexas e eficientes. 
+
+*R07 - A finalização da RNA e introdução a mais alguns conceitos*
+
+Este experimento consistiu na finalização da rede neural que construímos anteriormente, explorando aspectos cruciais como funções de ativação, funções de perda, desempenho e ajuste de parâmetros. Durante a jornada, discutimos diferentes funções de ativação, como a função sigmoide e ReLU, as quais desempenham um papel fundamental na introdução de não-linearidade e na capacidade da rede neural de aprender e generalizar padrões complexos. Além disso, exploramos as funções de perda, como o erro quadrático médio, que mede a diferença entre as saídas previstas e os valores reais, auxiliando no ajuste dos pesos da rede. A análise do desempenho da rede, por meio de métricas como a acurácia e o erro, nos fornece insights valiosos sobre o quão bem nosso modelo está aprendendo e fazendo previsões.
+
+*R08 - O pytorch e sua utilização*
+
+Este experimento consistiu na reelaboração da rede neural anterior utilizando a biblioteca PyTorch, explorando seus recursos e benefícios. O PyTorch é uma poderosa ferramenta de aprendizado de máquina que nos permite construir redes neurais de forma eficiente e simplificada. Durante o experimento, nos aprofundamos no conceito de tensores, que são estruturas de dados fundamentais no PyTorch, permitindo-nos representar e manipular os dados de entrada e os parâmetros da rede de maneira eficaz. Além disso, exploramos as funções de perda já prontas fornecidas pelo PyTorch como o erro quadrático médio, facilitando o cálculo da diferença entre as saídas previstas e os valores reais. Introduzimos também o otimizador Adam, uma poderosa técnica de otimização estocástica já implementada no PyTorch, que ajusta automaticamente os pesos da rede com base nos gradientes calculados. Com a utilização do PyTorch, podemos aprimorar nossa rede neural com maior facilidade, aproveitando os recursos prontos e otimizados disponíveis na biblioteca. 
