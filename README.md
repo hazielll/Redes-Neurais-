@@ -97,3 +97,13 @@ Este experimento consistiu na finalização da rede neural que construímos ante
 *R08 - O pytorch e sua utilização*
 
 Este experimento consistiu na reelaboração da rede neural anterior utilizando a biblioteca PyTorch, explorando seus recursos e benefícios. O PyTorch é uma poderosa ferramenta de aprendizado de máquina que nos permite construir redes neurais de forma eficiente e simplificada. Durante o experimento, nos aprofundamos no conceito de tensores, que são estruturas de dados fundamentais no PyTorch, permitindo-nos representar e manipular os dados de entrada e os parâmetros da rede de maneira eficaz. Além disso, exploramos as funções de perda já prontas fornecidas pelo PyTorch como o erro quadrático médio, facilitando o cálculo da diferença entre as saídas previstas e os valores reais. Introduzimos também o otimizador Adam, uma poderosa técnica de otimização estocástica já implementada no PyTorch, que ajusta automaticamente os pesos da rede com base nos gradientes calculados. Com a utilização do PyTorch, podemos aprimorar nossa rede neural com maior facilidade, aproveitando os recursos prontos e otimizados disponíveis na biblioteca. 
+
+# Referências bibliográficas
+## Livros
+ - "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+ - "Machine Learning" by Andrew Ng
+ - "Speech and Language Processing" by Jurafsky and Martin
+ - "Deep Learning with PyTorch: Build, train, and tune neural networks using Python tools" by Eli Stevens
+## Sites
+ - https://autograd.readthedocs.io/en/latest/
+ - https://pytorch.org/
